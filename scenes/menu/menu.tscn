@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://assets/ui-theme.tres" type="Theme" id=1]
+[ext_resource path="res://scenes/menu/Labs.cs" type="Script" id=2]
 [ext_resource path="res://assets/fonts/open-sans/open-sans-bold.ttf" type="DynamicFontData" id=4]
 [ext_resource path="res://scenes/menu/menu.gd" type="Script" id=5]
 
@@ -28,6 +29,7 @@ __meta__ = {
 anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color( 0.176471, 0.682353, 0.647059, 1 )
+script = ExtResource( 2 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchor_right = 1.0
@@ -35,12 +37,12 @@ anchor_bottom = 1.0
 margin_bottom = -339.0
 
 [node name="Title" type="Label" parent="CenterContainer"]
-margin_left = 145.0
+margin_left = 207.0
 margin_top = 89.0
-margin_right = 878.0
+margin_right = 817.0
 margin_bottom = 172.0
 custom_fonts/font = SubResource( 5 )
-text = "Godot Game Template"
+text = "Basic Action Game"
 uppercase = true
 __meta__ = {
 "_edit_use_anchors_": false
